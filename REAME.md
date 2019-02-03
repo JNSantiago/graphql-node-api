@@ -1,5 +1,5 @@
 Rodar o projeto
 
 ```
-tsc
+node_modules/.bin/gulp scripts
 ```
