@@ -24,11 +24,6 @@ const typeDefs = `
     }
 `
 const resolvers = {
-    User: {
-        id: (user) => user.id,
-        name: (user) => user.name,
-        email: (user) => user.email
-    },
     Query: {
         allUsers: () => users
     },
