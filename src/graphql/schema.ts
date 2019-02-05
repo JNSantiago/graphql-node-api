@@ -5,6 +5,7 @@ import { Mutation } from './mutation';
 
 import { userTypes } from './resources/user/user.schema';
 import { postTypes } from './resources/user/post.schema';
+import { commentTypes } from './resources/user/comment.schema';
 
 const SchemaDefinition = `
     type Schema {
@@ -18,6 +19,7 @@ export default makeExecutableSchema({
         SchemaDefinition,
         Query,
         Mutation,
+        commentTypes,
         postTypes,
         userTypes
     ]
